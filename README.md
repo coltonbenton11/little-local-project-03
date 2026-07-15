@@ -6,7 +6,7 @@ Little Local is a family-friendly place review website prototype designed to hel
 
 After publishing this repository with GitHub Pages, add your live site link here:
 
-**Live Site:** `https://YOUR-USERNAME.github.io/YOUR-REPOSITORY-NAME/`
+**Live Site:** `coltonbenton11.github.io
 
 ## Project Purpose
 
