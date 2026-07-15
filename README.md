@@ -6,8 +6,8 @@ Little Local is a family-friendly place review website prototype designed to hel
 
 After publishing this repository with GitHub Pages, add your live site link here:
 
-**Live Site:** `coltonbenton11.github.io
-
+**Live Site:** [`coltonbenton11.github.io](https://coltonbenton11.github.io/little-local-project-03/)
+](https://coltonbenton11.github.io/little-local-project-03/)
 ## Project Purpose
 
 Parents often need specific information before choosing a place to visit with children. Little Local highlights details such as:
