@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Little Local helps families evaluate kid-friendly places using practical parent-focused ratings.">
+  <title>Little Local | Family-Friendly Places</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html" aria-label="Little Local home">
+        <span class="brand-mark">LL</span>
+        <span>Little Local</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <ul class="nav-list">
+          <li><a class="active" href="index.html">Explore</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Parent-focused local reviews</p>
+          <h1>Find places that work for the whole family.</h1>
+          <p class="hero-copy">
+            Little Local looks beyond ordinary star ratings to highlight the details
+            parents actually need before choosing a restaurant, attraction, or local business.
+          </p>
+          <a class="button" href="#places">Explore sample places</a>
+        </div>
+
+        <aside class="score-card" aria-label="Sample Little Local score">
+          <p class="score-label">Little Local Score</p>
+          <p class="score-number">9.2</p>
+          <p class="score-text">Excellent for families</p>
+          <div class="score-tags">
+            <span>Clean bathrooms</span>
+            <span>Easy parking</span>
+            <span>Patient staff</span>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="rating-heading">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">What we look at</p>
+          <h2 id="rating-heading">Ratings built around real family needs</h2>
+          <p>
+            Every Little Local review focuses on practical details that can shape a family outing.
+          </p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card">
+            <span class="icon" aria-hidden="true">🚻</span>
+            <h3>Bathrooms</h3>
+            <p>Cleanliness, changing-table access, and overall convenience.</p>
+          </article>
+          <article class="feature-card">
+            <span class="icon" aria-hidden="true">👥</span>
+            <h3>Staff Patience</h3>
+            <p>How welcoming and understanding the staff are with children.</p>
+          </article>
+          <article class="feature-card">
+            <span class="icon" aria-hidden="true">⏱️</span>
+            <h3>Wait Time</h3>
+            <p>Whether the typical wait is manageable for families.</p>
+          </article>
+          <article class="feature-card">
+            <span class="icon" aria-hidden="true">🛒</span>
+            <h3>Stroller Access</h3>
+            <p>Entrance width, aisle space, and room for strollers.</p>
+          </article>
+          <article class="feature-card">
+            <span class="icon" aria-hidden="true">🔊</span>
+            <h3>Noise Comfort</h3>
+            <p>Whether the environment is calm, lively, or overwhelming.</p>
+          </article>
+          <article class="feature-card">
+            <span class="icon" aria-hidden="true">🅿️</span>
+            <h3>Parking & Safety</h3>
+            <p>Ease of parking, lighting, traffic, and safe entry.</p>
+          </article>
+          <article class="feature-card">
+            <span class="icon" aria-hidden="true">💵</span>
+            <h3>Family Value</h3>
+            <p>Whether the experience feels worthwhile for the cost.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt-section" id="places" aria-labelledby="places-heading">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Sample listings</p>
+          <h2 id="places-heading">Family-friendly places near you</h2>
+          <p>These demonstration listings show how Little Local could present useful family information.</p>
+        </div>
+
+        <div class="place-grid">
+          <article class="place-card">
+            <div class="place-image place-image-one" role="img" aria-label="Colorful indoor play area"></div>
+            <div class="place-body">
+              <div class="place-topline">
+                <p class="place-type">Indoor Play</p>
+                <span class="rating">9.4</span>
+              </div>
+              <h3>Bright Steps Play Café</h3>
+              <p>A relaxed play space with comfortable seating, simple snacks, and a toddler-friendly zone.</p>
+              <ul class="mini-list">
+                <li>Best for ages 1–8</li>
+                <li>Changing tables available</li>
+                <li>Easy stroller access</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="place-card">
+            <div class="place-image place-image-two" role="img" aria-label="Family restaurant table"></div>
+            <div class="place-body">
+              <div class="place-topline">
+                <p class="place-type">Restaurant</p>
+                <span class="rating">8.8</span>
+              </div>
+              <h3>Oak Table Kitchen</h3>
+              <p>A casual local restaurant with quick service, large booths, and flexible kids' meals.</p>
+              <ul class="mini-list">
+                <li>Moderate noise level</li>
+                <li>Large parking lot</li>
+                <li>Patient, attentive staff</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="place-card">
+            <div class="place-image place-image-three" role="img" aria-label="Children exploring a nature trail"></div>
+            <div class="place-body">
+              <div class="place-topline">
+                <p class="place-type">Outdoor Activity</p>
+                <span class="rating">9.1</span>
+              </div>
+              <h3>Pine Creek Nature Walk</h3>
+              <p>A short, shaded trail with rest areas, educational signs, and plenty of open space.</p>
+              <ul class="mini-list">
+                <li>Best for ages 3+</li>
+                <li>Free admission</li>
+                <li>Partial stroller access</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section callout-section">
+      <div class="container callout">
+        <div>
+          <p class="eyebrow">A clearer way to plan</p>
+          <h2>Good outings start with the right information.</h2>
+          <p>Learn more about the problem Little Local is designed to solve and how the rating system works.</p>
+        </div>
+        <a class="button button-light" href="about.html">About Little Local</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>&copy; 2026 Little Local. Student project by Colton Benton.</p>
+      <a href="about.html">Project overview</a>
+    </div>
+  </footer>
+</body>
+</html>
